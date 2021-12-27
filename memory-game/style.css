@@ -1,0 +1,24 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 1em;
+}
+
+/* grid setup */
+.grid{
+    margin: 1.2em auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+}
